@@ -1,0 +1,62 @@
+[
+  {
+    "id": "pcos-101",
+    "title": "Understanding Polycystic Ovary Syndrome (PCOS) Basics",
+    "category": "PCOS Basics",
+    "source": "World Health Organization (WHO) & Endocrine Society Guidelines",
+    "topic": "Overview, Physiology, and Hormonal Dynamics",
+    "summary": "PCOS is a common endocrine and metabolic condition affecting individuals with ovaries during reproductive years.",
+    "content": "Polycystic Ovary Syndrome (PCOS) is a multi-system endocrine condition characterized by hormonal imbalances, metabolic variations, and ovulatory differences. The core features often include hyperandrogenism (elevated levels of androgen hormones), ovulatory dysfunction (irregular or absent periods), and polycystic ovarian morphology on ultrasound. Insulin resistance plays a pivotal role in many PCOS presentations, affecting up to 70% of individuals regardless of body weight. Insulin resistance causes higher circulating insulin levels, which can signal the ovaries to produce additional testosterone. Managing PCOS typically involves an integrated approach focused on lifestyle habits, stress modulation, balanced nutrition, and personalized clinical guidance.",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome"
+  },
+  {
+    "id": "symptoms-tracking-guide",
+    "title": "Tracking PCOS-Related Symptoms: Acne, Hair Changes, and Fatigue",
+    "category": "Symptoms",
+    "source": "Journal of Clinical Endocrinology & Metabolism",
+    "topic": "Symptom Identification and Tracking",
+    "summary": "Detailed overview of key physical symptoms associated with hormonal fluctuations in PCOS.",
+    "content": "Symptoms of PCOS vary widely between individuals. Common observable signals include persistent adult acne (often around the lower jawline), hirsutism (excess body hair on the face, chest, or stomach), androgenic alopecia (hair thinning at the scalp crown), fatigue, sleep disturbances, mood changes, and digestive symptoms like bloating. Tracking symptoms systematically alongside cycle dates and lifestyle choices helps users notice personal correlations over time—such as whether stress or sleep disruption tends to precede flare-ups. Important note: Tracking symptoms is an empowering habit-awareness tool, not a diagnostic procedure.",
+    "url": "https://academic.oup.com/jcem"
+  },
+  {
+    "id": "lifestyle-nutrition-pcos",
+    "title": "Nutritional Foundations & Glycemic Balance in PCOS Wellness",
+    "category": "Nutrition",
+    "source": "Academy of Nutrition and Dietetics",
+    "topic": "Anti-inflammatory and Blood Sugar Friendly Eating",
+    "summary": "Evidence-based dietary strategies prioritizing steady blood sugar and reduced oxidative stress.",
+    "content": "Nutritional guidelines for PCOS emphasize blood sugar stabilization rather than extreme caloric restriction. Combining complex carbohydrates high in fiber (whole grains, legumes, berries) with adequate protein and healthy fats (avocado, nuts, olive oil, omega-3 rich seeds) helps blunt post-meal glucose spikes and insulin surges. Anti-inflammatory foods rich in antioxidants support cellular health and metabolic resilience. Extreme crash dieting can increase cortisol levels and worsen hormonal imbalance.",
+    "url": "https://www.eatright.org"
+  },
+  {
+    "id": "movement-cortisol-pcos",
+    "title": "Movement Strategies: Cortisol-Friendly Exercise for PCOS",
+    "category": "Movement",
+    "source": "American College of Sports Medicine (ACSM)",
+    "topic": "Physical Activity and Stress Reduction",
+    "summary": "How moderate resistance training, walking, and low-impact movement support insulin sensitivity without overstressing the adrenal axis.",
+    "content": "Exercise improves GLUT-4 glucose transporter activation in skeletal muscle independent of insulin, directly enhancing insulin sensitivity. For individuals with PCOS who experience heightened stress reactivity, low-to-moderate intensity strength training, Pilates, yoga, and brisk walking are particularly beneficial. Overtraining without sufficient recovery can elevate circulating cortisol levels, which may aggravate androgen production. Consistency and enjoyment are far more important than intensity.",
+    "url": "https://www.acsm.org"
+  },
+  {
+    "id": "sleep-stress-pcos",
+    "title": "The Sleep-Stress Axis in Hormonal Health",
+    "category": "Sleep & Stress",
+    "source": "Sleep Medicine Reviews & NIH Health",
+    "topic": "Circadian Rhythms and Cortisol Regulation",
+    "summary": "Understanding how poor sleep exacerbates insulin resistance and stress reactivity.",
+    "content": "Disrupted or short sleep duration (< 7 hours) reduces insulin sensitivity by up to 30% after just a few consecutive nights. Sleep debt also elevates ghrelin (the hunger hormone) while lowering leptin (satiety signal), increasing cravings for quick-energy simple carbohydrates. Stress modulation techniques—such as deep diaphragmatic breathing, consistent wake-up times, and limiting screen exposure before bed—help stabilize nocturnal cortisol secretion and support restorative REM and slow-wave sleep.",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc"
+  },
+  {
+    "id": "myths-facts-pcos",
+    "title": "PCOS Myths vs. Evidence-Based Facts",
+    "category": "Myths & Facts",
+    "source": "PCOS Challenge & International PCOS Network",
+    "topic": "Debunking Common Misconceptions",
+    "summary": "Clarifying widespread myths regarding fertility, diagnosis, weight, and management.",
+    "content": "Myth 1: PCOS only affects women who are overweight. Fact: Lean PCOS affects approximately 20-30% of women diagnosed with the condition.\nMyth 2: You cannot get pregnant if you have PCOS. Fact: PCOS is a leading cause of ovulatory subfertility, but ovulation induction and lifestyle strategies result in successful pregnancies for the majority of women.\nMyth 3: PCOS is purely a fertility issue. Fact: PCOS is a lifelong endocrine and metabolic condition influencing cardiovascular health, metabolic balance, and mental wellbeing.\nMyth 4: Carbohydrates must be completely eliminated. Fact: Fiber-rich whole carbohydrates are vital energy sources; balance, quality, and pairing matter more than elimination.",
+    "url": "https://pcoschallenge.org"
+  }
+]
