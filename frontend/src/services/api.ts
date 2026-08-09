@@ -1,6 +1,6 @@
 import type { Profile, Cycle, Symptom, LifestyleLog, PatternInsight, KnowledgeDoc, HealthSummaryData, Conversation, ChatMessage } from '../types';
 
-const API_BASE_URL = 'https://femora-ai-4jvf.onrender.com/api';
+const API_BASE_URL = 'https://femora-ai-backend.onrender.com/api';
 
 export const api = {
   async healthCheck() {
