@@ -1,6 +1,6 @@
 import type { Profile, Cycle, Symptom, LifestyleLog, PatternInsight, KnowledgeDoc, HealthSummaryData, Conversation, ChatMessage } from '../types';
 
-const API_BASE_URL = 'http://127.0.0.1:8000/api';
+const API_BASE_URL = 'https://femora-ai-4jvf.onrender.com/api';
 
 export const api = {
   async healthCheck() {
@@ -76,7 +76,7 @@ export const api = {
     try {
       const res = await fetch(`${API_BASE_URL}/cycles`);
       if (res.ok) return await res.json();
-    } catch (e) {}
+    } catch (e) { }
     return [
       { id: 'c1', user_id: 'demo-user-123', start_date: '2026-08-01', end_date: '2026-08-05', cycle_length: 32, notes: 'Moderate flow, light cramps' },
       { id: 'c2', user_id: 'demo-user-123', start_date: '2026-06-30', end_date: '2026-07-04', cycle_length: 31, notes: 'Normal flow' },
@@ -100,14 +100,14 @@ export const api = {
   async deleteCycle(id: string) {
     try {
       await fetch(`${API_BASE_URL}/cycles/${id}`, { method: 'DELETE' });
-    } catch (e) {}
+    } catch (e) { }
   },
 
   async getSymptoms(): Promise<Symptom[]> {
     try {
       const res = await fetch(`${API_BASE_URL}/symptoms`);
       if (res.ok) return await res.json();
-    } catch (e) {}
+    } catch (e) { }
     return [
       { id: 's1', user_id: 'demo-user-123', symptom: 'Acne', severity: 'Moderate', date: '2026-08-08', notes: 'Jawline breakout' },
       { id: 's2', user_id: 'demo-user-123', symptom: 'Fatigue', severity: 'High', date: '2026-08-07', notes: 'Sluggish afternoon' },
@@ -131,14 +131,14 @@ export const api = {
   async deleteSymptom(id: string) {
     try {
       await fetch(`${API_BASE_URL}/symptoms/${id}`, { method: 'DELETE' });
-    } catch (e) {}
+    } catch (e) { }
   },
 
   async getLifestyle(): Promise<LifestyleLog[]> {
     try {
       const res = await fetch(`${API_BASE_URL}/lifestyle`);
       if (res.ok) return await res.json();
-    } catch (e) {}
+    } catch (e) { }
     return [
       { id: 'l1', user_id: 'demo-user-123', date: '2026-08-09', sleep_hours: 7.5, exercise_minutes: 30, water_intake: 8, stress_level: 'Low', notes: 'Morning walk' },
       { id: 'l2', user_id: 'demo-user-123', date: '2026-08-08', sleep_hours: 6.0, exercise_minutes: 15, water_intake: 6, stress_level: 'High', notes: 'Busy work deadline' },
@@ -187,7 +187,7 @@ export const api = {
     try {
       const res = await fetch(`${API_BASE_URL}/insights`);
       if (res.ok) return await res.json();
-    } catch (e) {}
+    } catch (e) { }
     return [
       {
         id: 'in1',
@@ -223,7 +223,7 @@ export const api = {
         body: JSON.stringify({ message, user_id: userId }),
       });
       if (res.ok) return await res.json();
-    } catch (e) {}
+    } catch (e) { }
     return {
       query: message,
       simple_answer: 'Femora AI is operating in standalone mode. Nurturing your wellbeing begins with listening to your body.',
@@ -238,7 +238,7 @@ export const api = {
     try {
       const res = await fetch(`${API_BASE_URL}/conversations?user_id=${encodeURIComponent(userId)}`);
       if (res.ok) return await res.json();
-    } catch (e) {}
+    } catch (e) { }
     return [
       {
         id: 'conv-101',
@@ -265,7 +265,7 @@ export const api = {
     try {
       const res = await fetch(`${API_BASE_URL}/conversations/${encodeURIComponent(conversationId)}?user_id=${encodeURIComponent(userId)}`);
       if (res.ok) return await res.json();
-    } catch (e) {}
+    } catch (e) { }
     return {
       conversation: {
         id: conversationId,
@@ -286,7 +286,7 @@ export const api = {
         body: JSON.stringify({ title, user_id: userId }),
       });
       if (res.ok) return await res.json();
-    } catch (e) {}
+    } catch (e) { }
     const newId = `conv-${Date.now()}`;
     return {
       id: newId,
@@ -306,7 +306,7 @@ export const api = {
         body: JSON.stringify({ message, user_id: userId }),
       });
       if (res.ok) return await res.json();
-    } catch (e) {}
+    } catch (e) { }
     return null;
   },
 
@@ -318,7 +318,7 @@ export const api = {
         body: JSON.stringify({ title, user_id: userId }),
       });
       if (res.ok) return await res.json();
-    } catch (e) {}
+    } catch (e) { }
     return { message: 'Renamed locally' };
   },
 
@@ -328,7 +328,7 @@ export const api = {
         method: 'DELETE',
       });
       if (res.ok) return await res.json();
-    } catch (e) {}
+    } catch (e) { }
     return { message: 'Deleted locally' };
   },
 
@@ -336,7 +336,7 @@ export const api = {
     try {
       const res = await fetch(`${API_BASE_URL}/knowledge`);
       if (res.ok) return await res.json();
-    } catch (e) {}
+    } catch (e) { }
     return [];
   },
 
@@ -344,7 +344,7 @@ export const api = {
     try {
       const res = await fetch(`${API_BASE_URL}/summary`);
       if (res.ok) return await res.json();
-    } catch (e) {}
+    } catch (e) { }
     return {
       user_name: 'Elena Rostova',
       generated_at: new Date().toISOString().split('T')[0],
