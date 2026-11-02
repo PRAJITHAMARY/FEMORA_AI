@@ -1,234 +1,288 @@
-# 🌸 Femora AI
+ <div align="center">
 
-## AI-Powered PCOS Wellness & Personal Health Companion
+# 🌸 FEMORA AI
 
-Femora AI is an intelligent wellness platform designed to help women track, understand, and manage PCOS-related health patterns through personalized health tracking, AI-powered conversations, evidence-based knowledge retrieval, and data-driven wellness insights.
+### AI-Powered PCOS Wellness & Personal Health Companion
 
-The platform combines **Artificial Intelligence, Retrieval-Augmented Generation (RAG), personal health tracking, and wellness pattern analysis** into a single user-friendly application.
+<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&size=28&duration=3000&pause=900&color=E58BB5&center=true&vCenter=true&width=750&lines=Your+Health%2C+Your+Patterns%2C+Your+Wellness;Understand+Your+Body+with+AI;A+Smarter+Companion+for+PCOS+Wellness" alt="Animated Femora AI heading" />
 
-> **Medical Disclaimer:** Femora AI is an educational and wellness companion. It does not diagnose medical conditions or replace professional medical advice.
+*Empowering women to understand their health through Artificial Intelligence, personalized tracking, and meaningful wellness insights.*
 
----
+<p align="center">
+  <a href="https://femora-ai-frontend.onrender.com/" target="_blank">
+    <img src="https://img.shields.io/badge/🌸%20LIVE%20PROJECT-Explore%20Femora%20AI-E9A1C0?style=for-the-badge&labelColor=382638&color=E9A1C0" alt="Live Femora AI Project" />
+  </a>
+</p>
 
-## 🎯 Problem Statement
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Powered-CB91BD?style=flat-square" />
+  <img src="https://img.shields.io/badge/Healthcare-Wellness-E8A2B8?style=flat-square" />
+  <img src="https://img.shields.io/badge/RAG-Technology-B8A5D6?style=flat-square" />
+  <img src="https://img.shields.io/badge/Status-Live-9DBD9B?style=flat-square" />
+</p>
 
-Polycystic Ovary Syndrome (PCOS) can affect menstrual cycles, symptoms, energy levels, sleep, stress, lifestyle, and overall well-being.
-
-Many users face challenges such as:
-
-- Difficulty maintaining consistent health records
-- Scattered PCOS-related information
-- Difficulty identifying personal wellness patterns
-- Generic health advice that does not consider individual tracking data
-- Lack of a single platform for tracking symptoms and lifestyle
-- Difficulty organizing health information for discussions with healthcare professionals
-
-Femora AI addresses these challenges by bringing **health tracking, AI assistance, knowledge retrieval, and personalized wellness insights together in one platform.**
+</div>
 
 ---
 
-## 💡 Solution
+## 1. Project Concept & Creative Vision
 
-Femora AI provides a centralized digital wellness companion where users can:
+**Femora AI** is an intelligent digital wellness companion designed to help women track, understand, and manage PCOS-related health patterns through personalized health tracking, AI-powered conversations, and evidence-based knowledge retrieval.
 
-- Track menstrual cycles
-- Record symptoms and severity
-- Monitor sleep, exercise, hydration, and stress
-- Ask PCOS-related questions through an AI chatbot
-- Retrieve information from a curated health knowledge base
-- View personal wellness patterns
-- Maintain AI conversation history
-- Generate a personal health summary
+Polycystic Ovary Syndrome (PCOS) can influence several aspects of everyday life, including menstrual cycles, energy levels, sleep, stress, symptoms, and lifestyle habits.
 
-The goal is to help users better understand their personal wellness patterns and make informed lifestyle decisions.
+However, managing these different health aspects often means relying on multiple applications, scattered records, and generic information.
 
----
+**Femora AI** brings these experiences together in one centralized platform where personal health data meets Artificial Intelligence.
 
-# ✨ Key Features
+The vision is to create a supportive digital environment where users can:
 
-## 🌸 1. Personalized Health Profile
+- **Track** → Record menstrual cycles, symptoms, and daily wellness activities.
+- **Understand** → Explore personal health patterns through organized tracking records.
+- **Ask** → Interact with an AI-powered wellness chatbot.
+- **Discover** → Retrieve relevant PCOS information using RAG technology.
+- **Reflect** → Identify relationships between lifestyle habits and reported symptoms.
+- **Organize** → Generate structured health summaries for healthcare discussions.
 
-Users can maintain personal information such as:
-
-- Age
-- Height
-- Weight
-- Typical cycle length
-- Period duration
-- Last period date
-- Tracking preferences
+The central idea is simple: **Understand your body. Recognize your patterns. Take charge of your wellness.**
 
 ---
 
-## 🩸 2. Menstrual Cycle Tracking
+## 2. Features Actually Implemented
 
-Users can record and manage:
+### 🌸 1. Personalized Health Profile
 
-- Period start date
-- Period end date
-- Cycle length
-- Notes and observations
+A centralized profile management system that allows users to maintain their personal wellness information.
 
-Historical cycle records help users understand their individual cycle patterns.
+- Age, height, and weight.
+- Typical menstrual cycle length.
+- Period duration.
+- Last menstrual period date.
+- Personalized tracking preferences.
 
----
+### 🩸 2. Menstrual Cycle Tracking
 
-## 📝 3. Symptom Tracking
+A dedicated menstrual health tracking system to record and manage cycle information.
 
-Users can record symptoms such as:
+- Record period start and end dates.
+- Monitor individual cycle lengths.
+- Maintain historical cycle records.
+- Add personal notes and observations.
+- Review previous menstrual records.
 
-- Acne
-- Fatigue
-- Bloating
-- Hair-related concerns
-- Other personal symptoms
+### 📝 3. Intelligent Symptom Tracking
 
-Each symptom can include:
+A structured symptom management system that helps users maintain consistent health records.
 
-- Severity
-- Date
-- Notes
+- Track acne, fatigue, bloating, and hair-related concerns.
+- Record symptom severity.
+- Maintain symptom dates.
+- Add personal observations.
+- Review historical symptom records.
 
----
+### 💤 4. Lifestyle & Wellness Monitoring
 
-## 💤 4. Lifestyle & Wellness Tracking
+Monitor everyday lifestyle activities to better understand personal wellness patterns.
 
-Femora AI allows users to track:
+- Sleep duration tracking.
+- Exercise duration tracking.
+- Daily water intake.
+- Stress-level monitoring.
+- Daily lifestyle notes.
 
-- Sleep duration
-- Exercise duration
-- Water intake
-- Stress level
-- Daily notes
+### 🤖 5. AI-Powered Wellness Companion
 
-This information can be used to identify relationships between lifestyle habits and reported symptoms.
+An interactive AI chatbot designed to provide educational and wellness-related assistance.
 
----
+Users can explore topics such as:
 
-## 🤖 5. AI Wellness Companion
+- PCOS fundamentals.
+- Common symptoms.
+- Nutrition and healthy eating.
+- Sleep and exercise.
+- Menstrual health.
+- Stress management.
+- General wellness information.
 
-Users can interact with Femora AI through an AI-powered chatbot.
+### 📚 6. Retrieval-Augmented Generation (RAG)
 
-The chatbot provides educational information about:
+Femora AI integrates a RAG-based knowledge retrieval system to provide contextually relevant information from a curated health knowledge base.
 
-- PCOS basics
-- Symptoms
-- Nutrition
-- Sleep
-- Exercise
-- Menstrual cycles
-- Stress management
-- General wellness
+**Current RAG implementation:**
 
----
+- TF-IDF Vectorization.
+- Cosine Similarity.
+- Relevant document retrieval.
+- Context-based response generation.
 
-## 📚 6. RAG-Based Knowledge Retrieval
+Instead of relying entirely on general AI knowledge, the system retrieves relevant information from its knowledge base before generating responses.
 
-Femora AI uses a Retrieval-Augmented Generation approach to retrieve relevant information from a curated knowledge base.
+### 🔐 7. AI Safety & Responsible Health Guidance
 
-The current RAG engine uses:
-
-- TF-IDF Vectorization
-- Cosine Similarity
-- Relevant document retrieval
-- Context-based response generation
-
-This allows the system to retrieve relevant information before generating a response.
-
----
-
-## 🔐 7. AI Safety Layer
-
-Femora AI includes safety checks for sensitive medical queries.
+A dedicated safety layer designed to handle sensitive medical-related queries responsibly.
 
 The system identifies:
 
-- Diagnostic requests
-- Medication-related questions
-- Emergency-related symptoms
+- Medical diagnosis requests.
+- Medication-related questions.
+- Emergency-related symptoms.
 
-The system provides appropriate safety guidance and reminds users that Femora AI is not a medical diagnostic system.
+It provides appropriate safety guidance and encourages users to consult qualified healthcare professionals when necessary.
 
----
+### 💬 8. Conversation History Management
 
-## 💬 8. Conversation History
+A conversation management system that allows users to maintain continuity across AI interactions.
 
-Users can:
+- Create new conversations.
+- Continue previous conversations.
+- View chat history.
+- Rename conversations.
+- Delete conversations.
+- Use recent conversation context for follow-up questions.
 
-- Create conversations
-- Continue previous conversations
-- View chat history
-- Rename conversations
-- Delete conversations
+### 📊 9. Personalized Wellness Insights
 
-The system also uses recent conversation context to improve follow-up questions.
+Transform recorded health and lifestyle information into understandable wellness observations.
 
----
+Examples include:
 
-## 📊 9. Wellness Insights
+- Identifying sleep-duration patterns alongside symptom records.
+- Reviewing frequently reported symptoms.
+- Observing lifestyle changes over time.
+- Understanding personal tracking trends.
 
-Femora AI can identify patterns from tracked lifestyle and symptom data.
+These observations represent tracking patterns and are not medical diagnoses.
 
-For example:
+### 📋 10. Comprehensive Health Summary
 
-> Days with lower sleep duration may coincide with increased symptom reporting.
+Generate an organized personal wellness summary containing:
 
-These observations are presented as **tracking patterns and not medical diagnoses.**
+- Personal health profile.
+- Recent menstrual cycles.
+- Recent symptom records.
+- Lifestyle tracking information.
+- Observed wellness patterns.
+- Average sleep duration.
+- Average exercise duration.
+- Frequently recorded symptoms.
 
----
-
-## 📋 10. Health Summary
-
-Users can generate a structured wellness summary containing:
-
-- Personal profile
-- Recent cycles
-- Recent symptoms
-- Lifestyle records
-- Observed insights
-- Average sleep
-- Average exercise
-- Frequently recorded symptoms
-
-This summary can help users organize information for discussions with healthcare professionals.
+This helps users organize their health information for discussions with healthcare professionals.
 
 ---
 
-# 🧠 System Architecture
+## 3. System Architecture
+
+Femora AI follows a modular architecture that connects the frontend, backend, database, and AI-powered knowledge retrieval system.
 
 ```text
-                    ┌─────────────────────┐
-                    │        USER         │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │   React Frontend    │
-                    │    TypeScript UI    │
-                    └──────────┬──────────┘
-                               │
-                         REST API Calls
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │   FastAPI Backend   │
-                    │   API & Processing  │
-                    └───────┬───────┬─────┘
-                            │       │
-                 ┌──────────┘       └──────────┐
-                 ▼                             ▼
-       ┌──────────────────┐          ┌──────────────────┐
-       │ SQLite Database  │          │    RAG Engine    │
-       │                  │          │                  │
-       │ Users            │          │ Knowledge Base   │
-       │ Profiles         │          │ TF-IDF           │
-       │ Cycles           │          │ Cosine Similarity│
-       │ Symptoms         │          │ Retrieval        │
-       │ Lifestyle Logs   │          │ Safety Layer     │
-       │ Conversations    │          └────────┬─────────┘
-       └──────────────────┘                   │
-                                              ▼
-                                   ┌────────────────────┐
-                                   │ AI Wellness        │
-                                   │ Response           │
-                                   └────────────────────┘
+                     ┌──────────────────────┐
+                     │         USER         │
+                     └──────────┬───────────┘
+                                │
+                                ▼
+                     ┌──────────────────────┐
+                     │    React Frontend    │
+                     │    TypeScript UI     │
+                     └──────────┬───────────┘
+                                │
+                           REST API
+                                │
+                                ▼
+                     ┌──────────────────────┐
+                     │   FastAPI Backend    │
+                     │   API & Processing   │
+                     └──────────┬───────────┘
+                                │
+                   ┌────────────┴────────────┐
+                   ▼                         ▼
+          ┌──────────────────┐     ┌──────────────────┐
+          │ SQLite Database  │     │    RAG Engine    │
+          │                  │     │                  │
+          │ User Profiles    │     │ Knowledge Base   │
+          │ Menstrual Cycles │     │ TF-IDF           │
+          │ Symptoms         │     │ Cosine Similarity│
+          │ Lifestyle Logs   │     │ Document Search  │
+          │ Conversations    │     │ Safety Layer     │
+          └──────────────────┘     └────────┬─────────┘
+                                            │
+                                            ▼
+                                  ┌────────────────────┐
+                                  │ AI Wellness        │
+                                  │ Response Generation│
+                                  └────────────────────┘
+```
+
+---
+
+## 4. Technology Stack
+
+| Category | Technologies |
+|---|---|
+| Frontend | React, TypeScript |
+| Backend | Python, FastAPI |
+| Database | SQLite |
+| AI Integration | Large Language Model |
+| RAG Architecture | TF-IDF, Cosine Similarity |
+| Knowledge Retrieval | Curated Health Knowledge Base |
+| API Communication | REST API |
+| Deployment | Render |
+
+---
+
+## 5. Application Workflow
+
+1. **Create Your Profile:** Enter personal health and cycle information.
+2. **Track Your Health:** Record menstrual cycles, symptoms, and lifestyle activities.
+3. **Interact with AI:** Ask questions through the Femora AI wellness chatbot.
+4. **Retrieve Knowledge:** The RAG engine identifies relevant information from the curated knowledge base.
+5. **Generate Insights:** Review observations based on recorded wellness information.
+6. **View Health Summary:** Access organized personal health records and wellness insights.
+
+---
+
+## 6. Live Application
+
+Experience Femora AI through the deployed web application.
+
+<p align="center">
+  <a href="https://femora-ai-frontend.onrender.com/" target="_blank">
+    <img src="https://img.shields.io/badge/OPEN%20FEMORA%20AI-Visit%20Live%20Application-CB91BD?style=for-the-badge&labelColor=382638" alt="Open Femora AI" />
+  </a>
+</p>
+
+**Live Project:** https://femora-ai-frontend.onrender.com/
+
+---
+
+## 7. Future Enhancements
+
+The following features represent potential future development directions.
+
+1. **Advanced Predictive Analytics:** Explore personal cycle and symptom trends using historical tracking data.
+2. **Enhanced Wellness Visualizations:** Introduce interactive dashboards and detailed health analytics.
+3. **Expanded Knowledge Base:** Integrate additional trusted medical and wellness resources.
+4. **Personalized Recommendations:** Develop more context-aware wellness suggestions based on user-recorded information.
+5. **Advanced Pattern Detection:** Explore machine learning approaches for identifying relationships between lifestyle and symptom records.
+6. **Improved Accessibility:** Enhance mobile usability and provide more inclusive interaction options.
+
+---
+
+## 8. Project Philosophy
+
+Femora AI is built around the belief that understanding personal health should be more accessible, organized, and empowering.
+
+By combining AI-powered conversations, structured health tracking, knowledge retrieval, and wellness insights, the platform aims to make everyday health management a more informed experience.
+
+**Because every woman's health journey deserves understanding, awareness, and care.**
+
+<p align="center">
+
+### 🌸 FEMORA AI
+
+*Understand Your Body. Empower Your Journey.*
+
+</p>
+
+---
+
+> **Medical Disclaimer:** Femora AI is an educational and wellness companion. It does not diagnose, treat, or prevent medical conditions and does not replace professional medical advice. Users should consult qualified healthcare professionals for medical concerns.
